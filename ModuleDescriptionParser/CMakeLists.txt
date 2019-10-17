@@ -146,6 +146,7 @@ endif()
 # --------------------------------------------------------------------------
 # Build library
 # --------------------------------------------------------------------------
+find_package(GTest QUIET)
 set(lib_name ModuleDescriptionParser)
 include(GenerateExportHeader)
 file(READ ${CMAKE_CURRENT_SOURCE_DIR}/ModuleDescriptionParserPragmas.h.in ModuleDescriptionParser_PRAGMAS)

@@ -2,6 +2,7 @@
 # Build tests
 # --------------------------------------------------------------------------
 set(KIT ${PROJECT_NAME})
+find_package(GTest QUIET)
 create_test_sourcelist(Tests ${KIT}CxxTests.cxx
   ModuleDescriptionTest.cxx
   )

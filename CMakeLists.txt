@@ -28,6 +28,7 @@ project(SlicerExecutionModel
         LANGUAGES C CXX)
 
 #-----------------------------------------------------------------------------
+find_package(GTest QUIET)
 
 include(CMakeDependentOption)
 

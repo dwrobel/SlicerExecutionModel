@@ -16,6 +16,8 @@ endif()
 # --------------------------------------------------------------------------
 # Prerequisites
 # --------------------------------------------------------------------------
+find_package(GTest QUIET)
+
 find_package(ModuleDescriptionParser REQUIRED)
 include(${ModuleDescriptionParser_USE_FILE})
 
